@@ -1,6 +1,9 @@
 # Redis
 
-Install Redis: npm install redis
+Install Redis: 
+```
+npm install redis
+``
 
 Redis = “Remote Dictionary Server” — a super-fast in-memory key-value store.
 Because it’s blazing fast (microseconds), we use it for more than caching:
@@ -184,7 +187,9 @@ export const rateLimiter = async (req: Request, res: Response, next: NextFunctio
 };
 ```
 Then
-* app.use(rateLimiter);
+```
+app.use(rateLimiter);
+```
 
 ## Session Storage
 
